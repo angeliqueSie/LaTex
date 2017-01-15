@@ -1,15 +1,36 @@
-# LaTeX temp files
+# Ignores geneted pdfs
+*.pdf
+
+# Ignore audio recordings
+/records
+
+# Ignore LaTeX temporary files
 *.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
 *.bbl
 *.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.nav
+*.snm
+*.vrb
+*.out
+*.synctex.gz
 *.fdb_latexmk
 *.fls
-*.loe
-*.lof
-*.log
-*.lot
-*.out
-*.toc
-*.synctex.gz
-# Generated PDF
-thesis.pdf
+*.mtc?
